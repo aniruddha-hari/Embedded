@@ -9,13 +9,13 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file <stats.c> 
+ * @brief <Source file where all functions declared in the header file are defined and called >
  *
  * <Add Extended Description Here>
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author <A Harish>
+ * @date <12/24/17 >
  *
  */
 
@@ -41,3 +41,13 @@ void main() {
 }
 
 /* Add other Implementation File Code Here */
+unsigned char find_minimum(unsigned char*, int);
+unsigned char find_maximum(unsigned char*, int);
+double find_median(unsigned char*, int);
+double find_mean(unsigned char*, int);
+void print_array(unsigned char*, int);
+void print_statistics(unsigned char*, int);
+void sort_array(unsigned char*, int);
+
+
+
